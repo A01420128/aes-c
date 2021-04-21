@@ -7,3 +7,5 @@ main.o: main.c tiny-AES-c/aes.h
 aes.o: tiny-AES-c/aes.c tiny-AES-c/aes.h
 	gcc -c tiny-AES-c/aes.c
 
+clean:
+	rm aes.o main.o main
