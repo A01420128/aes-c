@@ -15,7 +15,7 @@ int main() {
     fgets((char *) message, 128, stdin);
 
     // Pedir la llave.
-    printf("Cual es la llave?\n");
+    printf("Cual es la llave? (16 characteres)\n");
     fgets((char *) key, 16, stdin);
     putchar('\n');
 
